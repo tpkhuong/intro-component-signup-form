@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html" />
+    <meta name="author" content="KhuongCorp" />
+    <meta name="description" content="Learning Nodejs" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="shortcut icon"
+      href="favicon.ico"
+      type="images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Intro Component Form</title>
+  </head>
+  <body>
+    <section class="form-component">
+      <h2 class="visually-hidden">Form Component</h2>
+      <div class="wrapper">
+        <article class="text-content">
+          <h1 class="text-content-title">Learn to code by watching others</h1>
+          <p class="text-content-description">
+            See how experienced developers solve problems in real-time. Watching
+            scripted tutorials is great, but understanding how developers think
+            is invaluable.
+          </p>
+        </article>
+        <article class="form-content">
+          <button class="try-free-btn">
+            <strong class="highlight">Try it free 7 days</strong> then $20/mo.
+            thereafter
+          </button>
+          <form novalidate class="form flow-content" action="#">
+            <div class="input-error-container">
+              <label class="visually-hidden" for="firstname">First Name</label>
+              <input
+                type="text"
+                id="firstname"
+                placeholder="First Name"
+                required
+              />
+              <span class="firstname-error-message hide"
+                >First Name cannot be empty</span
+              >
+              <div class="error-img-container hide">
+                <img
+                  src="images/icon-error.svg"
+                  alt="red circle with exclamation mark in the middle"
+                />
+              </div>
+            </div>
+            <div class="input-error-container">
+              <label class="visually-hidden" for="lastname">Last Name</label>
+              <input
+                type="text"
+                id="lastname"
+                placeholder="Last Name"
+                required
+              />
+              <span class="lastname-error-message hide"
+                >Last Name cannot be empty</span
+              >
+              <div class="error-img-container hide">
+                <img
+                  src="images/icon-error.svg"
+                  alt="red circle with exclamation mark in the middle"
+                />
+              </div>
+            </div>
+            <div class="input-error-container">
+              <label class="visually-hidden" for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="Email Address"
+                required
+              />
+              <span class="email-error-message hide"
+                >Looks like this is not an email</span
+              >
+              <div class="error-img-container hide">
+                <img
+                  src="images/icon-error.svg"
+                  alt="red circle with exclamation mark in the middle"
+                />
+              </div>
+            </div>
+            <div class="input-error-container">
+              <label class="visually-hidden" for="password">Password</label>
+              <input
+                type="password"
+                id="password"
+                placeholder="Password"
+                required
+              />
+              <span class="password-error-message hide"
+                >Password cannot be empty</span
+              >
+              <div class="error-img-container hide">
+                <img
+                  src="images/icon-error.svg"
+                  alt="red circle with exclamation mark in the middle"
+                />
+              </div>
+            </div>
+            <button id="submit-btn" class="claim-btn" type="button">
+              Claim your free trial
+            </button>
+            <p class="terms-services">
+              By clicking the button, you are agreeing to our
+              <a class="terms-services-link" href="#">Terms and Services</a>
+            </p>
+          </form>
+        </article>
+      </div>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
