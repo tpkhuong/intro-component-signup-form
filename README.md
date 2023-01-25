@@ -1,4 +1,4 @@
-# intro-component-signup-form
+# Intro Component with Signup Form
 
 ## Challenge level novice(newbie)
 
@@ -8,13 +8,13 @@
 
 Thank you for your time checking out my solution for the Intro Component with Sign-up Form from Frontend Mentor.
 
-link to the challenge on Frontend Mentor:
+Below is a link to the challenge on Frontend Mentor:
 
 https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1
 
 ## The challenge
 
-Challenge is to build out this FAQ accordion card and get it looking as close to the design as possible.
+Challenge is to build out this introductory component and get it looking as close to the design as possible.
 
 Use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
