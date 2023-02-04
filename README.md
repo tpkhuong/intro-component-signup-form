@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://tpkhuong.github.io/intro-component-signup-form/)
-- Live Site URL: [Add live site URL here](https://github.com/tpkhuong/intro-component-signup-form)
+- [Solution URL](https://tpkhuong.github.io/intro-component-signup-form/)
+- [Live Site URL](https://github.com/tpkhuong/intro-component-signup-form)
 
 ## My process
 
